@@ -1,0 +1,461 @@
+[
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_default",
+    "paired_n": 1478,
+    "target_months": 3,
+    "mae_difference": -1450.0908730155484,
+    "ci95": [
+      -3839.9188454742907,
+      -87.15664697973722
+    ],
+    "territory_win_rate": 0.9716024340770791,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_monthly",
+    "paired_n": 1478,
+    "target_months": 3,
+    "mae_difference": -1904.7229109898044,
+    "ci95": [
+      -3497.1936921744314,
+      -302.5654960962293
+    ],
+    "territory_win_rate": 0.9898580121703854,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_naive",
+    "paired_n": 6245,
+    "target_months": 3,
+    "mae_difference": -3607.776288115766,
+    "ci95": [
+      -4010.4727851261364,
+      -3214.439020789232
+    ],
+    "territory_win_rate": 0.9846596356663471,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_growth",
+    "paired_n": 6245,
+    "target_months": 3,
+    "mae_difference": -134.52173081715702,
+    "ci95": [
+      -235.10845847640903,
+      63.36153868100113
+    ],
+    "territory_win_rate": 0.6279961649089166,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_default",
+    "paired_n": 1478,
+    "target_months": 3,
+    "mae_difference": -1302.2455281141977,
+    "ci95": [
+      -3692.8437037177478,
+      79.70240495113956
+    ],
+    "territory_win_rate": 0.9614604462474645,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_monthly",
+    "paired_n": 1478,
+    "target_months": 3,
+    "mae_difference": -1756.8775660884535,
+    "ci95": [
+      -3350.118550417888,
+      -135.70644416535254
+    ],
+    "territory_win_rate": 0.9776876267748479,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_naive",
+    "paired_n": 6245,
+    "target_months": 3,
+    "mae_difference": -3457.716013620359,
+    "ci95": [
+      -3864.9488292077704,
+      -3059.6090044886523
+    ],
+    "territory_win_rate": 0.9798657718120806,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_growth",
+    "paired_n": 6245,
+    "target_months": 3,
+    "mae_difference": 15.538543678250015,
+    "ci95": [
+      -89.58450255804341,
+      213.18139829027518
+    ],
+    "territory_win_rate": 0.4333652924256951,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "signal_ensemble",
+    "paired_n": 6245,
+    "target_months": 3,
+    "mae_difference": 150.06027449540704,
+    "ci95": [
+      145.52395591836557,
+      154.8300163005797
+    ],
+    "territory_win_rate": 0.2828379674017258,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 1
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_default",
+    "paired_n": 1474,
+    "target_months": 3,
+    "mae_difference": -1548.1205468260748,
+    "ci95": [
+      -3365.9950609291172,
+      -493.53704846983055
+    ],
+    "territory_win_rate": 0.9776876267748479,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_monthly",
+    "paired_n": 1474,
+    "target_months": 3,
+    "mae_difference": -1835.642517188679,
+    "ci95": [
+      -2703.182062056945,
+      -1127.8711487979615
+    ],
+    "territory_win_rate": 0.9858012170385395,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_naive",
+    "paired_n": 6221,
+    "target_months": 3,
+    "mae_difference": -3521.602867421935,
+    "ci95": [
+      -3776.4974605391017,
+      -3070.8158263921014
+    ],
+    "territory_win_rate": 0.9755043227665706,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_growth",
+    "paired_n": 6221,
+    "target_months": 3,
+    "mae_difference": -316.3146246339517,
+    "ci95": [
+      -426.48706725145666,
+      -194.52671525926834
+    ],
+    "territory_win_rate": 0.7094140249759846,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_default",
+    "paired_n": 1474,
+    "target_months": 3,
+    "mae_difference": -1533.3737829936051,
+    "ci95": [
+      -3312.629914585815,
+      -489.19730619073806
+    ],
+    "territory_win_rate": 0.9634888438133874,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_monthly",
+    "paired_n": 1474,
+    "target_months": 3,
+    "mae_difference": -1820.8957533562093,
+    "ci95": [
+      -2649.816915713643,
+      -1123.5314065188688
+    ],
+    "territory_win_rate": 0.9675456389452333,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_naive",
+    "paired_n": 6221,
+    "target_months": 3,
+    "mae_difference": -3510.1506486015933,
+    "ci95": [
+      -3756.9126865436015,
+      -3075.9444073648715
+    ],
+    "territory_win_rate": 0.9702209414024976,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_growth",
+    "paired_n": 6221,
+    "target_months": 3,
+    "mae_difference": -304.8624058136101,
+    "ci95": [
+      -431.61564822422645,
+      -174.94194126376803
+    ],
+    "territory_win_rate": 0.718059558117195,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "signal_ensemble",
+    "paired_n": 6221,
+    "target_months": 3,
+    "mae_difference": 11.452218820341598,
+    "ci95": [
+      -5.128580972769784,
+      19.91694105564433
+    ],
+    "territory_win_rate": 0.48895292987512007,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 3
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_default",
+    "paired_n": 1465,
+    "target_months": 3,
+    "mae_difference": -1257.301527366647,
+    "ci95": [
+      -3311.070331312481,
+      29.973173355082015
+    ],
+    "territory_win_rate": 0.9489795918367347,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_monthly",
+    "paired_n": 1465,
+    "target_months": 3,
+    "mae_difference": -1885.3221828281917,
+    "ci95": [
+      -2725.127040480099,
+      -958.5072715461822
+    ],
+    "territory_win_rate": 0.9591836734693877,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_naive",
+    "paired_n": 6185,
+    "target_months": 3,
+    "mae_difference": -3272.5777454745785,
+    "ci95": [
+      -3709.1022574502617,
+      -2967.0197342198267
+    ],
+    "territory_win_rate": 0.9754335260115607,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_growth",
+    "paired_n": 6185,
+    "target_months": 3,
+    "mae_difference": -663.6387756226618,
+    "ci95": [
+      -709.4443169444625,
+      -592.5798532641692
+    ],
+    "territory_win_rate": 0.8164739884393064,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_default",
+    "paired_n": 1465,
+    "target_months": 3,
+    "mae_difference": -378.0762641205838,
+    "ci95": [
+      -2348.7652014849837,
+      685.0032916473707
+    ],
+    "territory_win_rate": 0.6122448979591837,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_monthly",
+    "paired_n": 1465,
+    "target_months": 3,
+    "mae_difference": -1006.0969195821289,
+    "ci95": [
+      -1762.821910652602,
+      -303.47715325389345
+    ],
+    "territory_win_rate": 0.6510204081632653,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_naive",
+    "paired_n": 6185,
+    "target_months": 3,
+    "mae_difference": -2335.799262625468,
+    "ci95": [
+      -2711.056791814558,
+      -1881.2199582935575
+    ],
+    "territory_win_rate": 0.896917148362235,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_growth",
+    "paired_n": 6185,
+    "target_months": 3,
+    "mae_difference": 273.13970722644876,
+    "ci95": [
+      133.2374010616103,
+      397.1586927602719
+    ],
+    "territory_win_rate": 0.3921001926782274,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "signal_ensemble",
+    "paired_n": 6185,
+    "target_months": 3,
+    "mae_difference": 936.7784828491106,
+    "ci95": [
+      725.8172543257795,
+      1085.799775926269
+    ],
+    "territory_win_rate": 0.2365125240847784,
+    "caution": "few target-month clusters; descriptive interval, not proof of generalization",
+    "horizon": 6
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_default",
+    "paired_n": 479,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "prophet_monthly",
+    "paired_n": 479,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_naive",
+    "paired_n": 2043,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_ensemble",
+    "baseline": "seasonal_growth",
+    "paired_n": 2043,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_default",
+    "paired_n": 479,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "prophet_monthly",
+    "paired_n": 479,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_naive",
+    "paired_n": 2043,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "seasonal_growth",
+    "paired_n": 2043,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  },
+  {
+    "candidate": "signal_adaptive",
+    "baseline": "signal_ensemble",
+    "paired_n": 2043,
+    "target_months": 1,
+    "ci95": null,
+    "reason": "insufficient independent time blocks",
+    "horizon": 12
+  }
+]

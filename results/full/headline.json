@@ -1,0 +1,42 @@
+[
+  {
+    "horizon": 1,
+    "mae_signal": 801.714586499607,
+    "mae_prophet_default": 2251.805459515156,
+    "mae_prophet_monthly": 2706.437497489411,
+    "improvement_default_percent": 64.39680954178755,
+    "improvement_monthly_percent": 70.37749487127243,
+    "n": 1478,
+    "target_months": 3
+  },
+  {
+    "horizon": 3,
+    "mae_signal": 883.0540092846396,
+    "mae_prophet_default": 2431.1745561107145,
+    "mae_prophet_monthly": 2718.6965264733185,
+    "improvement_default_percent": 63.67788536347179,
+    "improvement_monthly_percent": 67.51921368619492,
+    "n": 1474,
+    "target_months": 3
+  },
+  {
+    "horizon": 6,
+    "mae_signal": 1101.240073639365,
+    "mae_prophet_default": 2358.541601006012,
+    "mae_prophet_monthly": 2986.5622564675573,
+    "improvement_default_percent": 53.30843122844888,
+    "improvement_monthly_percent": 63.12683349377459,
+    "n": 1465,
+    "target_months": 3
+  },
+  {
+    "horizon": 12,
+    "mae_signal": 2511.1298620786765,
+    "mae_prophet_default": 3054.257697815248,
+    "mae_prophet_monthly": 7745.749259293063,
+    "improvement_default_percent": 17.7826460460451,
+    "improvement_monthly_percent": 67.58054284979706,
+    "n": 479,
+    "target_months": 1
+  }
+]
