@@ -1,0 +1,4 @@
+territory_id,selection_rule,observations,history_months,test_months,test_mae_h1
+2120,Медианная MAE,24,24,3,656.19768247303
+2362,90-й перцентиль,24,24,3,1293.0500285504095
+2346,Наибольшая MAE,12,24,1,14193.324810402977

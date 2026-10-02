@@ -1,0 +1,7 @@
+{
+  "iteration_1": "original equal-prior/exponential ensemble; preserved as signal_ensemble",
+  "iteration_2": "pooled damped annual-growth experts and past-only recent model selection",
+  "motivation": "weak long-horizon performance seen in development targets through September 2024",
+  "no_test_numeric_tuning": true,
+  "caveat": "not a preregistered study; long-horizon results exploratory"
+}
