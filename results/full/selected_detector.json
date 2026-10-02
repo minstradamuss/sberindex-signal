@@ -1,5 +1,0 @@
-{
-  "model": "bayesian_runlength",
-  "criterion": "mean event F1 on calibration IDs only",
-  "evaluation_ids_used_for_selection": false
-}

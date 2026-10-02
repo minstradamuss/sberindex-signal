@@ -1,9 +1,0 @@
-{
-  "python": "3.12.14",
-  "platform": "Windows-11-10.0.26100-SP0",
-  "data_sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
-  "foundation_revision": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
-  "seed": 20261001,
-  "limit": null,
-  "news_sha256": "bd6efbfd815bdb9c3abb083da9ac22ee4ebbf4e07a69d0cffd72748fe856a5aa"
-}
